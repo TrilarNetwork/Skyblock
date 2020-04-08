@@ -1,5 +1,6 @@
-package com.shizleshizle.skyblock.objects;
+package me.shizleshizle.skyblock.objects;
 
+import me.shizleshizle.core.objects.User;
 import org.bukkit.World;
 import org.bukkit.WorldCreator;
 import org.bukkit.generator.ChunkGenerator;

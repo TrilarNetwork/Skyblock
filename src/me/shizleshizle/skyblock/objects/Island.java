@@ -1,6 +1,6 @@
-package com.shizleshizle.skyblock.objects;
+package me.shizleshizle.skyblock.objects;
 
-import com.shizleshizle.skyblock.SkyBlock;
+import me.shizleshizle.skyblock.SkyBlock;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 

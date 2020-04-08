@@ -1,6 +1,6 @@
-package com.shizleshizle.skyblock;
+package me.shizleshizle.skyblock;
 
-import com.shizleshizle.skyblock.objects.IslandHandler;
+import me.shizleshizle.skyblock.objects.IslandHandler;
 import me.shizleshizle.core.mysql.MySQLManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -18,6 +18,7 @@ public class SkyBlock extends JavaPlugin {
             sql.openConnection();
         }
         islands = new IslandHandler();
+        islands.setup();
         final long result = System.currentTimeMillis() - time;
         getLogger().info("Skyblock >> Enabled! (" + result + " ms)");
     }
