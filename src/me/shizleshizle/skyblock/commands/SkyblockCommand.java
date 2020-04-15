@@ -19,7 +19,7 @@ public class SkyblockCommand implements CommandExecutor {
                 if (args.length == 1) {
                     if (args[0].equalsIgnoreCase("island")) {
                         // TODO: Create island
-                        SkyBlock.islands.addIsland(new Island(p, ));
+                        SkyBlock.islands.addIsland(new Island(p, SkyBlock.islands.getNewIslandLocation(p)));
                     } else if (args[0].equalsIgnoreCase("createworld")) {
 
                     } else {
