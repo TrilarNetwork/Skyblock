@@ -1,9 +1,13 @@
 <component name="libraryTable">
   <library name="Trilar_McCore-0.0.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/Trilar/Trilar_McCore-0.0.1.jar!/" />
+      <root url="jar://D:/Alle mappen + Bestanden/Trilar/Trilar_McCore-0.0.1-1.15.2.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://D:/Java Versions/core-master.zip!/core-master/Trilar_McCore/src" />
+      <root url="jar://D:/Java Versions/core-master (1).zip!/core-master/Trilar_McCore/src" />
+      <root url="file://$PROJECT_DIR$/../core/Trilar_McCore/src" />
+    </SOURCES>
   </library>
 </component>

@@ -1,0 +1,12 @@
+name: SkyBlock
+version: 1.0.0
+author: shizleshizle
+main: me.shizleshizle.skyblock
+api-version: 1.13
+description: SkyBlock Plugin
+
+commands:
+  clear:
+  claim:
+  check:
+  unclaim:
